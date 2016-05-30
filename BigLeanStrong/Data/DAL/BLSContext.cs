@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Data.DAL
 {
-    class BLSContext : DbContext
+    public class BLSContext : DbContext
     {
 
         public BLSContext() : base("BLSContext")
